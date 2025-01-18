@@ -1,0 +1,18 @@
+// Main Layout Styles
+header {
+  height: 4rem;
+  background-color: lightblue;
+}
+
+main {
+  min-height: calc(100vh - 26.7rem);
+  z-index: 0;
+}
+
+footer {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
