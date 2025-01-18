@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="home-container flex-column-center">
-      <div className="">
-        <h1>Welcome to our Homepage</h1>
-        <p>to get you started, click on the button below</p>
+      <div className="flex-column-center">
+        <h1 className="poppins-bold">Welcome to our Homepage</h1>
+        <p className="poppins-light">to get you started, click on the button below</p>
       </div>
       <button className="poppins-medium">
         <Link href="/userlist">navigate to user lists</Link>
