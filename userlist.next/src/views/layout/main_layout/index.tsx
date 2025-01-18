@@ -16,7 +16,7 @@ const MainLayout: FC<MainLayoutProps> = ({ children }) => {
         <NavMenu />
       </header>
       <main>{children}</main>
-      <footer>
+      <footer className="flex-row-center">
         <Footer />
       </footer>
     </div>
