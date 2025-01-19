@@ -1,17 +1,22 @@
 @forward "public/assets/fonts/styles/index";
+// ui
+:root {
+  --bg-color-primary: #e7e8e9;
+  --bg-color-secondary: #d4d3d4;
+  --layout-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  --button-color: #48a6e9;
+  --text-primaryColor: white;
+  --text-secondaryColor: black;
+  --text-disabled: #666;
+  --icon-color-primary: #E55353,
+}
+
+// common styles
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-:root {
-  --bg-color-primary: #e7e8e9;
-  --layout-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  --button-color: #48a6e9;
-  --text-primaryColor: white;
-  --text-secondaryColor: black;
 }
 
 body {
@@ -24,15 +29,28 @@ a {
 }
 
 // layout style
-.flex-row-center {
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex--align-center {
+  align-items: center;
+}
+
+.flex--row-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex-column-center {
+.flex--column-center {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

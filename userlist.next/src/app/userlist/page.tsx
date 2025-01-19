@@ -1,7 +1,9 @@
 // Main
 import { FC } from 'react';
+// Components
+import Users from 'app/userlist/components/users';
 
 const UserList: FC = () => {
-  return <p>user list page</p>;
+  return <Users />;
 };
 export default UserList;

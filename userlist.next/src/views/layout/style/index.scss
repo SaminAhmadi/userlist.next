@@ -6,7 +6,7 @@ header {
 }
 
 main {
-  height: 100vh;
+  min-height: calc(100vh - 26.7rem);
   z-index: 0;
 }
 

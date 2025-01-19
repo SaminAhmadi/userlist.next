@@ -11,15 +11,15 @@ import { MainLayoutProps } from 'views/layout/types';
 
 const MainLayout: FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="container">
+    <>
       <header>
         <NavMenu />
       </header>
       <main>{children}</main>
-      <footer className="flex-row-center">
+      <footer className="flex--row-center">
         <Footer />
       </footer>
-    </div>
+    </>
   );
 };
 export default MainLayout;
