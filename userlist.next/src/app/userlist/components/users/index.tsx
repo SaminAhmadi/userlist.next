@@ -37,7 +37,7 @@ const Users: FC = () => {
       {users.map((data, index) => (
         <UserCard
           key={index}
-          id={index}
+          id={index + 1}
           picture={data.picture}
           gender={data.gender}
           name={data.name}
