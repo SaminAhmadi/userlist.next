@@ -1,0 +1,28 @@
+// Header styles
+nav {
+  height: 100%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  height: inherit;
+
+  & li > a {
+    color: var(--text-secondaryColor);
+  }
+}
+
+.list_li--active {
+  background-color: var(--button-color);
+  color: var(--text-primaryColor) !important;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+// Footer
+p {
+  text-align: center;
+}
